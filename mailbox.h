@@ -24,6 +24,7 @@ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 */
 
 #include <linux/ioctl.h>
+#include <sys/sysmacros.h>
 
 // Newer kernels (>= 4.1) use major 249, older ones major 100.
 #define MAJOR_NUM_A 249
